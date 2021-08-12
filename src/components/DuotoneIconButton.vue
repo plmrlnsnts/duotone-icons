@@ -1,6 +1,5 @@
 <template>
     <button type="button" class="relative block w-full pb-[100%] outline-gray group" @click="copyToClipboard">
-        <div class="absolute inset-x-0 bottom-4 text-sm text-center font-medium">{{ icon.name }}</div>
         <div v-if="status === 'idle'" class="absolute inset-0 flex items-center justify-center">
             <div class="w-24 h-24 bg-gray-100 rounded-full transition transform scale-0 group-hover:scale-100"></div>
         </div>
@@ -10,6 +9,7 @@
                 <div v-else class="bg-gray-900 text-white text-sm font-semibold px-3 py-2 rounded">Copied!</div>
             </transition>
         </div>
+        <h6 class="absolute inset-x-0 bottom-4 text-sm text-center font-medium">{{ icon.name }}</h6>
     </button>
 </template>
 
