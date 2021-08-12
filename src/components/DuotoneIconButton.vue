@@ -27,7 +27,7 @@ export default {
     computed: {
         formattedSvg() {
             return this.icon.svg
-                .replaceAll('w-6 h-6', 'w-10 h-10')
+                .replaceAll('w-6 h-6', 'w-8 h-8 md:w-10 md:h-10')
                 .replaceAll('duotone-primary', this.color.textPrimary)
                 .replaceAll('duotone-secondary', this.color.textSecondary)
         },

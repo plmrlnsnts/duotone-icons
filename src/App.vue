@@ -1,12 +1,9 @@
 <template>
     <div class="min-h-screen bg-white">
         <header class="py-16 sm:py-24 lg:py-32" :class="colors[color].gradient">
-            <div class="text-center w-full max-w-3xl mx-auto space-y-8">
-                <h1 class="text-center text-5xl md:text-7xl font-black tracking-tight"><span class="text-white/75">duo</span><span class="text-white/95">tone</span> <span class="font-light text-white">icons</span></h1>
-                <div class="space-y-2">
-                    <p class="text-lg md:text-xl font-medium text-white">Free, sexy af, two-tone SVG icons. For your frontend pleasures.</p>
-                    <p class="text-lg md:text-xl font-medium text-white/75">Designed by <a href="https://preview.keenthemes.com/start/documentation/general/icons/duotone.html" target="_blank" rel="noopener noreferrer" class="hover:text-white hover:underline">@keenthemes</a>. Viewer by <a href="https://twitter.com/plmrlnsnts" target="_blank" rel="noopener noreferrer" class="hover:text-white hover:underline">@plmrlnsnts</a></p>
-                </div>
+            <div class="sm:text-center w-full max-w-3xl mx-auto px-6 space-y-8">
+                <h1 class="text-4xl sm:text-5xl md:text-7xl font-black tracking-tight"><span class="text-white/75">duo</span><span class="text-white/95">tone</span> <span class="font-light text-white">icons</span></h1>
+                <p class="sm:text-xl font-medium text-white">Free, sexy af, two-tone SVG icons. For your frontend pleasures. Designed by <a href="https://preview.keenthemes.com/start/documentation/general/icons/duotone.html" target="_blank" rel="noopener noreferrer" class="hover:text-white hover:underline">@keenthemes</a>. Viewer by <a href="https://twitter.com/plmrlnsnts" target="_blank" rel="noopener noreferrer" class="hover:text-white hover:underline">@plmrlnsnts</a></p>
             </div>
         </header>
         <main>
@@ -14,7 +11,7 @@
                 <SearchInput @search="filter" class="flex-1" />
                 <ColorSwitcher v-model:color="color" :colors="colors" />
             </nav>
-            <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-px">
+            <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 gap-px">
                 <DuotoneIconButton v-for="icon in icons" :key="`icon-${icon.name}-${icon.tags}`" :icon="icon" :color="colors[color]" />
             </div>
         </main>
