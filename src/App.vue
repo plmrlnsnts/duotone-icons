@@ -5,7 +5,7 @@
                 <h1 class="text-center text-5xl md:text-7xl font-black tracking-tight"><span class="text-white/75">duo</span><span class="text-white/95">tone</span> <span class="font-light text-white">icons</span></h1>
                 <div class="space-y-2">
                     <p class="text-lg md:text-xl font-medium text-white">Free, sexy af, two-tone SVG icons. For your frontend pleasures.</p>
-                    <p class="text-lg md:text-xl font-medium text-white/75">Designed by <a href="https://preview.keenthemes.com/start/documentation/general/icons/duotone.html" target="_blank" rel="noopener noreferrer">@keenthemes</a>. Viewer by <a href="https://twitter.com/plmrlnsnts" target="_blank" rel="noopener noreferrer" class="hover:underline">@plmrlnsnts</a></p>
+                    <p class="text-lg md:text-xl font-medium text-white/75">Designed by <a href="https://preview.keenthemes.com/start/documentation/general/icons/duotone.html" target="_blank" rel="noopener noreferrer" class="hover:text-white hover:underline">@keenthemes</a>. Viewer by <a href="https://twitter.com/plmrlnsnts" target="_blank" rel="noopener noreferrer" class="hover:text-white hover:underline">@plmrlnsnts</a></p>
                 </div>
             </div>
         </header>
